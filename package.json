@@ -1,0 +1,27 @@
+{
+  "name": "projeto_skim",
+  "version": "1.0.0",
+  "description": "criando uma página para a Skim Floripa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicaschnei/Projeto_Skim.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Mônica de Souza Schneider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicaschnei/Projeto_Skim/issues"
+  },
+  "homepage": "https://github.com/monicaschnei/Projeto_Skim#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
