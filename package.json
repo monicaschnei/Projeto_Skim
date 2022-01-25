@@ -4,7 +4,8 @@
   "description": "criando uma página para a Skim Floripa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server src/"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/monicaschnei/Projeto_Skim/issues"
   },
-  "homepage": "https://github.com/monicaschnei/Projeto_Skim#readme",
-  "dependencies": {
-    "live-server": "^1.2.1"
-  }
+  "homepage": "https://github.com/monicaschnei/Projeto_Skim#readme"
 }

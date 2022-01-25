@@ -30,10 +30,8 @@ body{
 }
 
 .logo__skim-capa{
-    position: absolute;
     left: 2rem;
-    top: 2rem;
-    width: 15%;
+    width: 15vh;
 }
 
 .capa{
@@ -71,22 +69,24 @@ body{
 }
 
 .container{
-    margin: 0 36rem;
-    height: 12rem;
-}
-
-.container1{
-    position: absolute;
-    height: 30vh;
-    top: 5vh;
+    width: 100vw;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 #btn-menu{
-    margin: 0 0 0 3rem;
-    border: none;
-    background-color: unset;
-    width: 3rem;
-    height: 3rem;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    background: unset;
+    border: unset;
+    width: fit-content;
+    font-size: 2rem;
+    justify-self: end;
+    align-self: start;
+    margin-top: 2rem;
 }
 
 .menu{
@@ -96,6 +96,18 @@ body{
     margin: 0 0 0 3vw;
 }
 
+.menu.active{
+    display: grid;
+    place-items: center;
+    background:  #000e;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
 
 .container1__lista{
     display: flex;
@@ -112,7 +124,7 @@ body{
 
 .container1__lista__item a{
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: var(--white);
     text-transform: uppercase;
 }

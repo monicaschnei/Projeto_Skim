@@ -7,36 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Skim floripa</title>
 </head>
 
 <body>
     <header>
-        
-        <div class="container">
-            <img class="logo__skim-capa" src="./src/images/logo_skim_floripa.png" alt="">
-            <nav class="container1">
-                <button id="btn-menu"><i class="fas fa-bars fa-2x"></i></button>
-               
-                </button>
-                <ul class="menu" class="container1__dropdown-container menu-view container1__lista">
-                    <li class="container1__lista__item"><a href="">Home</a></li>
-                    <li class="container1__lista__item"><a href="">Conteúdo</a></li>
-                    <li class="container1__lista__item"><a href="">Escola</a></li>
-                </ul>
-            </nav>
-        </div>
-        
+        <nav class="container1">
+            <div class="container">
+            <img class="logo__skim-capa" src="./images/logo_skim_floripa.png" alt="">
+            
+            <ul class="menu" class="container1__dropdown-container menu-view container1__lista">
+                <li class="container1__lista__item"><a href="">Home</a></li>
+                <li class="container1__lista__item"><a href="#aula">Escola</a></li>
+                <li class="container1__lista__item"><a href="#pranchas">Pranchas</a></li>
+                <li class="container1__lista__item"><a href="#eventos">Eventos</a></li>
+            </ul>
+            <button id="btn-menu"><i class="fas fa-bars fa-2x"></i></button>
+
+            </button>
+
+            </div>
+        </nav>
+
+
     </header>
     <main>
         <div class="slider">
-            <div><img class="capa" src="./src/images/skim_foto4.jpg" alt=""></div>
-            <div><img class="capa" src="./src/images/skim_foto5.jpg" alt=""></div>
-            <div><img class="capa" src="./src/images/skim_foto7.jpg" alt=""></div>
+            <div><img class="capa" src="./images/skim_foto4.jpg" alt=""></div>
+            <div><img class="capa" src="./images/skim_foto5.jpg" alt=""></div>
+            <div><img class="capa" src="./images/skim_foto7.jpg" alt=""></div>
         </div>
 
-        
+
         <div class="container2">
             <ul class="container2__lista">
                 <li class="container2__item">
@@ -63,37 +66,40 @@
         </div>
 
         <div class="container3">
-            <div class="container3__conteudos">
-                <img src="./src/images/skim_foto1.jpg" alt="">
+            <div id="aula" class="container3__conteudos">
+                <img src="./images/skim_foto1.jpg" alt="">
                 <div class="container3__conteudo">
                     <h3>Venha praticar conosco! </h3>
                     <p>Explicação de como funciona a aula: idades, preços (talvez) </p>
-                    <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button class="btn1">Entre em contato</button></a>
-                    
+                    <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button
+                            class="btn1">Entre em contato</button></a>
+
                 </div>
             </div class="container3">
 
-            <div class="container3__conteudos">
-                <img src="./src/images/skim_foto2.jpg" alt="">
+            <div id="pranchas" class="container3__conteudos">
+                <img src="./images/skim_foto2.jpg" alt="">
                 <div class="container3__conteudo">
                     <h3>Venda de Prancha </h3>
                     <p>Falar sobre a venda de pranchas </p>
-                    <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button class="btn1">Entre em contato</button></a>
+                    <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button
+                            class="btn1">Entre em contato</button></a>
                 </div>
             </div>
-            <div class="container3__conteudos">
-                <img src="./src/images/skim_foto3.jpg" alt="">
+            <div id="eventos" class="container3__conteudos">
+                <img src="./images/skim_foto3.jpg" alt="">
                 <div class="container3__conteudo">
                     <h3>Eventos </h3>
                     <p>Explicar como funcionam os eventos</p>
                     <p class="container3__conteudo-eventos">Próximos Eventos</p>
-                        <ul class="container3__conteudo-itens">
-                            <li> 30/01 - Encontro SkimFloripa - Praia da Armação - Floripa - SC</li>
-                            <li>06/02 - Skimboard só para elas - Praia da Armação - SC</li>
-                            <li>12/02 - Encontro SkimboardSC - Estaleirinho - BC</li>
-                        </ul>
-                         
-                    <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button class="btn1">Entre em contato</button></a>
+                    <ul class="container3__conteudo-itens">
+                        <li> 30/01 - Encontro SkimFloripa - Praia da Armação - Floripa - SC</li>
+                        <li>06/02 - Skimboard só para elas - Praia da Armação - SC</li>
+                        <li>12/02 - Encontro SkimboardSC - Estaleirinho - BC</li>
+                    </ul>
+
+                    <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button
+                            class="btn1">Entre em contato</button></a>
                 </div>
             </div>
         </div>
@@ -101,68 +107,75 @@
         <div class="container4">
             <h2 class="container4__depo">Depoimentos</h2>
             <div class="container4__conteudos">
-                <img src="./src/images/skim_foto4.jpg" alt="">
+                <img src="./images/skim_foto4.jpg" alt="">
 
                 <h3>Fulano. </h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ipsam quasi repudiandae cum
                     dolorum suscipit sapiente </p>
-                <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button class="btn2">Entre em contato</button></a>
+                <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button class="btn2">Entre em
+                        contato</button></a>
 
             </div class="container4">
 
             <div class="container4__conteudos">
-                <img src="./src/images/skim_foto5.jpg" alt="">
+                <img src="./images/skim_foto5.jpg" alt="">
 
                 <h3>Ciclano. </h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ipsam quasi repudiandae cum
                     dolorum suscipit sapiente </p>
-                    <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button class="btn2">Entre em contato</button></a>
+                <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button class="btn2">Entre em
+                        contato</button></a>
 
             </div>
             <div class="container4__conteudos">
-                <img src="./src/images/skim_foto6.jpg" alt="">
+                <img src="./images/skim_foto6.jpg" alt="">
 
                 <h3>Beltrano. </h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ipsam quasi repudiandae cum
                     dolorum suscipit sapiente </p>
-                <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button class="btn2">Entre em contato</button></a>
+                <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><button class="btn2">Entre em
+                        contato</button></a>
             </div>
         </div>
         <section>
             <div class="container5">
-                <img src="./src/images/foto-diego-treinador.png" alt="">
+                <img src="./images/foto-diego-treinador.png" alt="">
                 <h3>Diego Antunes Treinador </h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ipsam quasi repudiandae cum
                     dolorum suscipit sapiente </p>
-                <button class="btn-whats"> <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank">Chamar no Whatsapp</a></button>
+                <button class="btn-whats"> <a href="https://web.whatsapp.com/send?phone=5548991687107"
+                        target="blank">Chamar no Whatsapp</a></button>
             </div>
         </section>
         <div class="container6">
             <h2>Nossa Localização</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ipsam quasi repudiandae cum
                 dolorum suscipit sapiente </p>
-            </div>
-            <div class="maps">
-                <iframe 
-                src="https://maps.google.com/maps?q=arma%C3%A7%C3%A3o%20p%C3%A2ntano%20do%20sul%20florian%C3%B3polis&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                </iframe>
-            </div>
+        </div>
+        <div class="maps">
+            <iframe
+                src="https://maps.google.com/maps?q=arma%C3%A7%C3%A3o%20p%C3%A2ntano%20do%20sul%20florian%C3%B3polis&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+        </div>
     </main>
     <footer>
         <div class="footer">
-            <img class="logo__skim" src="./src/images/logo_skim_floripa.png" alt="">
+            <img class="logo__skim" src="./images/logo_skim_floripa.png" alt="">
             <div class="social">
-            
-            <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><i class="fab fa-whatsapp fa-lg"></i></a>
-            
-            <a href="https://www.instagram.com/skimfloripa/" target="blank"><i class="fab fa-instagram fa-lg"></i></a>
 
-            
-            <a href="https://www.facebook.com/skimfloripa/" target="blank"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="https://web.whatsapp.com/send?phone=5548991687107" target="blank"><i
+                        class="fab fa-whatsapp fa-lg"></i></a>
+
+                <a href="https://www.instagram.com/skimfloripa/" target="blank"><i
+                        class="fab fa-instagram fa-lg"></i></a>
+
+
+                <a href="https://www.facebook.com/skimfloripa/" target="blank"><i class="fab fa-facebook fa-lg"></i></a>
             </div>
         </div>
     </footer>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

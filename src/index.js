@@ -1,4 +1,4 @@
-const infoButtonInit = () => {
+  /*const infoButtonInit = () => {
   const botao = $("#btn-menu");
   const botaoInitialText = botao.html();
   botao.on("click", ()=>{
@@ -10,10 +10,25 @@ const infoButtonInit = () => {
       $(".menu").slideToggle();
   })
   
-}
+}*/
+
+//Menu//
+$(document).ready(() => {
+
+  $('#btn-menu').on('click', function(){
+    $('.menu').toggleClass('active'); 
+    $(this).find('i').toggleClass('fa-bars');
+    $(this).find('i').toggleClass('fa-times'); 
+    
+   
+   
+  })
+})
+
+//Carrossel
 
 $(document).ready(() => {
-  infoButtonInit();
+  /*infoButtonInit();*/
   const slickOptions = {
     dots: false,
     autoplay: true,
@@ -24,6 +39,8 @@ $('.slider').slick(slickOptions);
 console.log("deu certo?")
   
 })
+
+
 
 
 
